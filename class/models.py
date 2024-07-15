@@ -1,6 +1,6 @@
 from django.db import models
 
-class Classroom(models.Model):
+class Classes(models.Model):
   class_name= models.CharField(max_length=20)
   number_of_seats= models.IntegerField()
   number_of_students= models.IntegerField()
